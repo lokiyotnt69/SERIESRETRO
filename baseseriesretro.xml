@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8" stJGlone="yes"?>
 
-<item>
-<title>[COLOR red] *********************************SERIES[/COLOR][COLOR yellow] RETRO DIABLO******************************************* [/COLOR]</title>
-<link>http://</link>
-<thumbnail>https://1.bp.blogspot.com/-P8ZlokpSINo/WSrEMj6TSoI/AAAAAAAAAD4/6C-inG3iwxwp4THpBt26TWb_tq5zZS4QQCLcB/s1600/Retro_Series_Logo.jpg</thumbnail>
-</item>
+
 
 
 
@@ -895,7 +891,7 @@
 
 
 <item>
-<title>Temporada 1,2,3.</title>
+<title>[COLOR  yellow]*FRIENDS T1,2,3 [/COLOR] </title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -933,7 +929,7 @@
 </item>
 
 <item>
-<title>Temporada 4,5,6.</title>
+<title>[COLOR  yellow]*FRIENDS T 4,5,6 [/COLOR].</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -971,7 +967,7 @@
 </item>
 
 <item>
-<title>Temporada 7,8,9.</title>
+<title>[COLOR  yellow]* FRIENDS T7,8,9 [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -1010,7 +1006,64 @@
 
 
 
+<item>
+ <title>[COLOR lime]• [/COLOR][COLOR lime]HERCULES [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail></thumbnail>
+		<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/hercules-t0-47770</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/hercules-t0-47770</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
 
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]* [/COLOR]HOSTAL ROYAL MANZANARES[/COLOR]</title>
+  <thumbnail>http://es.web.img3.acsta.net/pictures/15/06/11/10/26/578661.jpg</thumbnail>
+<fanart>http://images.vozpopuli.com/2015/09/04/marabilias/tv/Morgan-Obregon-Joaquin-Hostal-Manzanares_840825964_1615596_1020x574.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>http://pastebin.com/raw/FP0gwtwR</externallink>
+</item>
+
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]*   [/COLOR]HOSPITAL CENTRAL[/COLOR]</title>
+  <thumbnail>http://pics.filmaffinity.com/hospital_central_tv_series-177808884-large.jpg</thumbnail>
+<fanart>http://segnorasque.com/wp-content/uploads/2016/11/hc.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>http://pastebin.com/raw/1RADeGik</externallink>
+</item>
 
 
 
