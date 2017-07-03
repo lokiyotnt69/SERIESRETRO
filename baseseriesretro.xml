@@ -137,7 +137,7 @@
 
 
 <item>
-<title>[COLOR white][COLOR lime]• [/COLOR] Bonanza </title>
+<title>[COLOR white][COLOR lime]• [/COLOR] [COLOR  yellow]BONANZA  [/COLOR] </title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -232,7 +232,7 @@
 </item>
 
 <item>
- <title>[COLOR white][COLOR lime]• [/COLOR] Colombo </title>
+ <title>[COLOR white][COLOR lime]• [/COLOR][COLOR  yellow]COLOMBO [/COLOR] </title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -289,7 +289,7 @@
 </item>
 
 <item>
-<title>Corrupcion en Miami  TEMPORADA 1</title>
+<title>[COLOR  yellow]*CORRUPCION EN MIAMI T1  [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -328,7 +328,7 @@
 
 
 <item>
-<title>Corrupcion en Miami  TEMPORADA 2</title>
+<title>[COLOR  yellow]*CORRUPCION T2  [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -366,7 +366,7 @@
 		<fanart>http://cdn.20m.es/img2/recortes/2011/12/19/42347-944-550.jpg</fanart>
 
 <item>
-<title>Corrupcion en Miami  TEMPORADA 3</title>
+<title>[COLOR  yellow]*CORRUPCION T3  [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -404,7 +404,7 @@
 		<fanart>http://cdn.20m.es/img2/recortes/2011/12/19/42347-944-550.jpg</fanart>
 
 <item>
-<title>Corrupcion en Miami  TEMPORADA 4</title>
+<title>[COLOR  yellow]*CORRUPCION T4  [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -442,7 +442,7 @@
 		<fanart>http://cdn.20m.es/img2/recortes/2011/12/19/42347-944-550.jpg</fanart>
 
 <item>
-<title>Corrupcion en Miami  TEMPORADA 5</title>
+<title>[COLOR  yellow]*CORRUPCION EN MIAMI T5 [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -520,7 +520,7 @@
 </item>
 
 <item>
- <title>[COLOR white][COLOR lime]• [/COLOR] DEXTER </title>
+ <title>[COLOR white][COLOR lime]• [/COLOR][COLOR  yellow]DEXTER [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -569,7 +569,7 @@
 
 
 <item>
-<title>EL BARCO TEMPORADA 1</title>
+<title>[COLOR  yellow]*EL BARCO T1  [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -610,7 +610,7 @@
 
 
 <item>
-<title>EL BARCO TEMPORADA 2</title>
+<title>[COLOR  yellow]*EL BARCO T2  [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -649,13 +649,8 @@
 
 
 
-
-
-
-
-
 <item>
-<title>EL BARCO TEMPORADA 3</title>
+<title>[COLOR  yellow]*EL BARCO T3 [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -696,7 +691,7 @@
 		
 		
 <item>
- <title>[COLOR white][COLOR lime]• [/COLOR] EL COCHE FANTASTICO </title>
+ <title>[COLOR white][COLOR lime]• [/COLOR][COLOR  yellow]EL COCHE FANTASTICO [/COLOR] </title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
