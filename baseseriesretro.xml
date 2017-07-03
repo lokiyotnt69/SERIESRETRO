@@ -482,10 +482,302 @@
 
 
 
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]CUÑAOS[/COLOR]</title>
+  <thumbnail>http://fotos.subefotos.com/9c6f4a4fb1d97f7950141ee4e5c705fao.jpg</thumbnail>
+<fanart>https://pics.filmaffinity.com/Parejolog_a_3_2_Serie_de_TV-549372150-large.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/CU%C3%91AOS.xml</externallink>
+</item>
+
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]CURRO JIMENEZ[/COLOR]</title>
+  <thumbnail>http://pics.filmaffinity.com/curro_jimenez_tv_series-392040146-large.jpg</thumbnail>
+<fanart>http://img.rtve.es/imagenes/curro-jimenez-su-banda-fantastico-1978/1340717995767.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/CURROJIMENEZ.xml</externallink>
+</item>
+
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]DE REPENTE LOS GOMEZ[/COLOR]</title>
+  <thumbnail>http://pics.filmaffinity.com/de_repente_los_gomez_tv_series-698913049-large.jpg</thumbnail>
+<fanart>http://es.web.img2.acsta.net/r_640_600/b_1_d6d6d6/medias/nmedia/18/72/90/53/19182462.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/DERPENTELOSGOMEZ.xml</externallink>
+</item>
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]DEL DICHO AL HECHO[/COLOR]</title>
+  <thumbnail>http://pics.filmaffinity.com/del_dicho_al_hecho_tv_series-856712467-large.jpg</thumbnail>
+<fanart>http://img.rtve.es/v/2976563?w=1180&preview=1423644984703.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/DELDICHOALECHO.xml</externallink>
+</item>
+
+<item>
+ <title>[COLOR white][COLOR lime]• [/COLOR] DEXTER </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://es.web.img3.acsta.net/pictures/14/03/05/11/49/010324.jpg</thumbnail>
+		<fanart>http://quever.com/wp-content/uploads/2013/09/dexter.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/lokario1/dexter-temporadas-12345-14570</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/lokario1/dexter-temporadas-12345-14570</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://es.web.img3.acsta.net/pictures/14/03/05/11/49/010324.jpg</thumbnail>
+<fanart>http://quever.com/wp-content/uploads/2013/09/dexter.jpg</fanart>
+</item>
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]* [/COLOR]DOCTOR MATEO[/COLOR]</title>
+  <thumbnail>http://pics.filmaffinity.com/doctor_mateo_tv_series-772765003-large.jpg</thumbnail>
+<fanart>https://teleaudienciastv.files.wordpress.com/2015/02/doctor-mateo.jpg?w=727&h=444</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/DOCTORAMATEO.xml</externallink>
+</item>
+
+
+
+<item>
+<title>EL BARCO TEMPORADA 1</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://es.web.img1.acsta.net/medias/nmedia/18/82/43/74/20314258.jpg</thumbnail>
+		<fanart>http://fotografias.antena3.com/clipping/cmsimages02/2012/10/15/56FE6F1B-70E0-43DC-BF88-C125C6122574/57.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/el-barco-t1-castellano-52415</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/gemma-valencia/el-barco-t1-castellano-52415</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+</item>
+<thumbnail>http://es.web.img1.acsta.net/medias/nmedia/18/82/43/74/20314258.jpg</thumbnail>
+		<fanart>http://fotografias.antena3.com/clipping/cmsimages02/2012/10/15/56FE6F1B-70E0-43DC-BF88-C125C6122574/57.jpg</fanart>
 
 
 
 
+<item>
+<title>EL BARCO TEMPORADA 2</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://es.web.img1.acsta.net/medias/nmedia/18/82/43/74/20314258.jpg</thumbnail>
+		<fanart>http://fotografias.antena3.com/clipping/cmsimages02/2012/10/15/56FE6F1B-70E0-43DC-BF88-C125C6122574/57.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/el-barco-t2-castellano-52559</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/gemma-valencia/el-barco-t2-castellano-52559</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+</item>
+<thumbnail>http://es.web.img1.acsta.net/medias/nmedia/18/82/43/74/20314258.jpg</thumbnail>
+		<fanart>http://fotografias.antena3.com/clipping/cmsimages02/2012/10/15/56FE6F1B-70E0-43DC-BF88-C125C6122574/57.jpg</fanart>
+
+
+
+
+
+
+
+
+<item>
+<title>EL BARCO TEMPORADA 3</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://es.web.img1.acsta.net/medias/nmedia/18/82/43/74/20314258.jpg</thumbnail>
+		<fanart>http://fotografias.antena3.com/clipping/cmsimages02/2012/10/15/56FE6F1B-70E0-43DC-BF88-C125C6122574/57.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/el-barco-t3-castellano-52609</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/gemma-valencia/el-barco-t3-castellano-52609</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+</item>
+<thumbnail>http://es.web.img1.acsta.net/medias/nmedia/18/82/43/74/20314258.jpg</thumbnail>
+		<fanart>http://fotografias.antena3.com/clipping/cmsimages02/2012/10/15/56FE6F1B-70E0-43DC-BF88-C125C6122574/57.jpg</fanart>
+
+
+		
+		
+<item>
+ <title>[COLOR white][COLOR lime]• [/COLOR] EL COCHE FANTASTICO </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://laguiatv.abc.es/archivos/201112/cochefantastico.jpg</thumbnail>
+		<fanart>http://noticias.coches.com/wp-content/uploads/2012/04/KITTTheKnightrider.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/naredo/el-coche-fantastico-53427</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/naredo/el-coche-fantastico-53427</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://laguiatv.abc.es/archivos/201112/cochefantastico.jpg</thumbnail>
+<fanart>http://noticias.coches.com/wp-content/uploads/2012/04/KITTTheKnightrider.jpg</fanart>
+</item>
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]EL GRAN HEROE AMERICANO[/COLOR]</title>
+  <thumbnail>http://static.fnac-static.com/multimedia/ES/images_produits/ES/ZoomPE/8/4/9/8436022314948.jpg</thumbnail>
+<fanart>http://blogdesuperheroes.es/wp-content/plugins/BdSGallery/BdSGaleria/30608.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/ELGRANHEROEAMERICANO.xml</externallink>
+</item>
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]EL HALCON CALLEJERO[/COLOR]</title>
+  <thumbnail>http://seriesblanco.com/files/uploads/2786.jpg</thumbnail>
+<fanart>http://1.bp.blogspot.com/-cMABXhvn3ZY/TfDJ0TbTARI/AAAAAAAABDA/A7OUgDHchy8/s1600/streethawk_03_1024x768.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/ELHALCONCALLEJERO.xml</externallink>
+</item>
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]EL EQUIPO A[/COLOR]</title>
+  <thumbnail>http://pics.filmaffinity.com/the_a_team_tv_series-322332863-large.jpg</thumbnail>
+<fanart>http://www.luisserrano.com/images/ilust_varios/EquipoA.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/EQUIPOa.xml</externallink>
+</item>
+
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]EL SINDROME DE ULISES[/COLOR]</title>
+  <thumbnail>http://pics.filmaffinity.com/el_sindrome_de_ulises_tv_series-816806442-large.jpg</thumbnail>
+<fanart>http://cdn.20m.es/img/2008/01/15/741427.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/ELSINDROMEDEULISES.xml</externallink>
+</item>
+
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]EL SHOW DE LOS 70`S[/COLOR]</title>
+  <thumbnail>http://www.ocio.net/wp-content/uploads/2008/07/that70sshows72d.jpg</thumbnail>
+<fanart>http://www.ocio.net/wp-content/uploads/2008/07/that70sshows72d.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/EL%20SHOW%20DE%20LOS%2070%60S.xml</externallink>
+</item>
 
 
 
