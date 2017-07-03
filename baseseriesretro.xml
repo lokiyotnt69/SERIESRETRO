@@ -559,7 +559,7 @@
 
 
 <item>
-      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]* [/COLOR]DOCTOR MATEO[/COLOR]</title>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]DOCTOR MATEO[/COLOR]</title>
   <thumbnail>http://pics.filmaffinity.com/doctor_mateo_tv_series-772765003-large.jpg</thumbnail>
 <fanart>https://teleaudienciastv.files.wordpress.com/2015/02/doctor-mateo.jpg?w=727&h=444</fanart>
 <link>http://ignoreme</link>
@@ -776,7 +776,130 @@
 
 
 
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]EL PRINCIPE DE BEL-AIR[/COLOR]</title>
+  <thumbnail>http://4.bp.blogspot.com/-QyCwcPNWuqY/VL25jP5r2lI/AAAAAAAADPo/y8ZYgusNnTM/s1600/pb2.jpg</thumbnail>
+<fanart>https://okdiario.com/series/img/2016/11/08/118828.alfabetajuega-el-principe-de-bel-air-180815.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/principedebelain.xml</externallink>
+</item>
 
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]EVA Y ADAN AGENCIA MATRIMONIAL[/COLOR]</title>
+  <thumbnail>http://blogs.lainformacion.com/telediaria/files/2012/08/EVA-Y-ADAN-ANTONIO-RESINES-VERONICA-FORQUE.jpg</thumbnail>
+<fanart>http://img.rtve.es/v/2636694/</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/EvayAdan.xml</externallink>
+</item>
+
+
+<item>
+<title>[COLOR white][COLOR lime]• [/COLOR]El Zorro </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.qserie.com/files/uploads/5126.jpg</thumbnail>
+		<fanart>http://k31.kn3.net/taringa/1/2/2/F/A/B/olivera_carp14/501.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/naredo/el-zorro-serie-tv-31264/list,1,4</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/naredo/el-zorro-serie-tv-31264/list,1,4</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.qserie.com/files/uploads/5126.jpg</thumbnail>
+<fanart>http://k31.kn3.net/taringa/1/2/2/F/A/B/olivera_carp14/501.jpg</fanart>
+</item>
+
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]*   [/COLOR][COLOR  lime]EMBRUJADA[/COLOR]</title>
+  <thumbnail>https://guideimg.alibaba.com/images/shop/2015/09/11/74/embrujada-1-temporada-import-movie-european-format-zone-2-2005-elizabeth-montgomery-david-white_9097574.jpeg</thumbnail>
+<fanart>http://cdn.20m.es/img/2010/10/16/1151994.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/Embrujada.xml</externallink>
+</item>
+
+
+<item>
+ <title>[COLOR white][COLOR lime]• [/COLOR]Farmacia de Guardia </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://pics.filmaffinity.com/farmacia_de_guardia_tv_series-864040820-large.jpg</thumbnail>
+		<fanart>http://estaticos01.elmundo.es/blogs/elmundo/asesinoenserie/imagenes_posts/2010/02/09/farmacia%20de%20guardia_470x404.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/farmacia-de-guardia-24397/list,1,8</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chicho306/farmacia-de-guardia-24397/list,1,8</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://pics.filmaffinity.com/farmacia_de_guardia_tv_series-864040820-large.jpg</thumbnail>
+<fanart>http://estaticos01.elmundo.es/blogs/elmundo/asesinoenserie/imagenes_posts/2010/02/09/farmacia%20de%20guardia_470x404.jpg</fanart>
+</item>
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]FISICA O QUIMICA[/COLOR]</title>
+  <thumbnail>http://gentedetele.com/wp-content/uploads/2011/06/fisica-o-quimica-TEMPORA-5.jpg</thumbnail>
+<fanart>http://fotografias.nova.atresmedia.com//clipping/cmsimages02//2016/08/11/96E06ADF-2A7D-44CE-8B71-E8C3A4A7424B/57.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/FIsicaquimica.xml</externallink>
+</item>
+
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]FRIENDS[/COLOR]</title>
+  <thumbnail>http://www.gstatic.com/tv/thumb/tvbanners/183931/p183931_b_v8_ac.jpg</thumbnail>
+<fanart>http://pixel.nymag.com/imgs/daily/vulture/2016/03/23/23-friends-cover-story-lede.w750.h560.2x.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>http://pastebin.com/raw/PApV55W7</externallink>
+</item>
 
 
 
