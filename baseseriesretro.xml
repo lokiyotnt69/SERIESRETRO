@@ -1062,8 +1062,196 @@
   <thumbnail>http://pics.filmaffinity.com/hospital_central_tv_series-177808884-large.jpg</thumbnail>
 <fanart>http://segnorasque.com/wp-content/uploads/2016/11/hc.jpg</fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/hospitalcentrl.txt</externallink>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/hospitalcentrl</externallink>
 </item>
+
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]*   [/COLOR]JUNTAS PERO NO REVUELTAS[/COLOR]</title>
+  <thumbnail>http://www.imer.mx/tropicalisima/wp-content/uploads/sites/19/juntasrevueltas.png</thumbnail>
+<fanart>http://img.rtve.es/v/2825074?w=1180&preview=1414664913740.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/juntasperonorevueltas.xml</externallink>
+</item>
+
+<item>
+ <title>[COLOR white][COLOR lime]• [/COLOR] La Casa de los Lios </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://pics.filmaffinity.com/la_casa_de_los_lios_tv_series-240558816-large.jpg</thumbnail>
+		<fanart>http://www.quidsweb.com/images/series_lacasadeloslios.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/lokario1/la-casa-de-los-lios-14277/list,1,6</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/lokario1/la-casa-de-los-lios-14277/list,1,6</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://pics.filmaffinity.com/la_casa_de_los_lios_tv_series-240558816-large.jpg</thumbnail>
+<fanart>http://www.quidsweb.com/images/series_lacasadeloslios.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR white][COLOR lime]• [/COLOR]La Familia Adams </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://pics.filmaffinity.com/the_munsters_tv_series-209314142-large.jpg</thumbnail>
+		<fanart>http://k31.kn3.net/taringa/F/C/4/B/7/0/dariomustaine/E58.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/la-familia-addams-22882/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chicho306/la-familia-addams-22882/list,1,3</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://pics.filmaffinity.com/the_munsters_tv_series-209314142-large.jpg</thumbnail>
+<fanart>http://k31.kn3.net/taringa/F/C/4/B/7/0/dariomustaine/E58.jpg</fanart>
+</item>
+
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]* [/COLOR]LA FAMILIA MATA[/COLOR]</title>
+  <thumbnail>http://decine21.com/img/upload/obras/La-familia-Mata-13063/La-familia-Mata-13063-C.jpg</thumbnail>
+<fanart>http://pics.filmaffinity.com/La_familia_Mata_Serie_de_TV-250777411-large.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/lafamiliamata.xml</externallink>
+</item>
+
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]*   [/COLOR]LA HUELLA DEL CRIMEN[/COLOR]</title>
+  <thumbnail>http://www.seriesyonkis.com/img/series/170x243/la-huella-del-crimen.jpg</thumbnail>
+<fanart>http://img.rtve.es/v/1501507?w=1180&preview=1344418400550.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/lahuelladelcrimen.xml</externallink>
+</item>
+
+
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]LA TIA DE AMBROSIO[/COLOR]</title>
+  <thumbnail>https://1.bp.blogspot.com/-U6JPS3CxpP0/VunK0WIOeUI/AAAAAAAAtVQ/g2Yuw1m4gf4Cf2wx7rAq9tpoKWE-WCsRg/s1600/la%2Btia%2Bde%2Bambrosio.jpg</thumbnail>
+<fanart>http://img.rtve.es/v/1736650?w=1180&preview=1364802570166.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/latiadeambrosio.xml</externallink>
+</item>
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]LA VERDAD DE LAURA[/COLOR]</title>
+  <thumbnail>http://img.rtve.es/imagenes/verdad-laura-cabecera/1345123807442.jpg</thumbnail>
+<fanart>http://img.rtve.es/v/1520593/</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/Laverdaddelaura.xml</externallink>
+</item>
+
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]LLENO POR FAVOR[/COLOR]</title>
+  <thumbnail>http://pics.filmaffinity.com/lleno_por_favor_tv_series-587787947-large.jpg</thumbnail>
+<fanart>http://3.bp.blogspot.com/-QRLgJBJ8UYo/UQ7Ejssmb0I/AAAAAAAAPpk/w60POeqJKsg/s1600/Lleno_por_favor_serie_antena_3_Escenas.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/llenoxfvor.xml</externallink>
+</item>
+
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]LAS CHICAS DE ORO[/COLOR]</title>
+  <thumbnail>http://www.grupojoseluismoreno.com/las-chicas-de-oro/poster.jpg</thumbnail>
+<fanart>https://agenteuve.files.wordpress.com/2010/08/laschicasdeoroespana1.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/laschicasdeoro.xml</externallink>
+</item>
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]LAS DOCE CARAS DE EVA[/COLOR]</title>
+  <thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BODFiODM1ZmItMDU1Ni00NTcyLWJkYjQtODE5NjQ2MTBiYjgwXkEyXkFqcGdeQXVyMTM2Mzg4MA@@._V1_UY268_CR85,0,182,268_AL_.jpg</thumbnail>
+<fanart>http://img.rtve.es/v/3812355?w=1180&preview=1480419151780.png</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/las12carasdeeva.xml</externallink>
+</item>
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]LOS CAMIONEROS[/COLOR]</title>
+  <thumbnail>http://pics.filmaffinity.com/los_camioneros_tv_series-738306533-large.jpg</thumbnail>
+<fanart>http://img.rtve.es/v/3466558?w=1180&preview=1454332657770.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>http://pastebin.com/raw/Pb9zLgsX</externallink>
+</item>
+
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]LOS CUENTOS DEL MONO DE ORO[/COLOR]</title>
+  <thumbnail>http://www.seriespapaya.com/uploads/Cuentos-del-mono-de-oro92.jpg</thumbnail>
+<fanart>http://4.bp.blogspot.com/-GHM2wbn2SfU/UdRiqChenYI/AAAAAAAAIug/Ram1BXp9Sck/s500/Tales+Monkey.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/loscamioneros.xml</externallink>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
