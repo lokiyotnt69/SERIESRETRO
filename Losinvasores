@@ -1,0 +1,96 @@
+#EXTM3U
+
+
+#EXTINF:-1,1x01 Cabeza de playa
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=VX_E0xet6A8
+
+#EXTINF:-1,1x02 El experimento
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=v1bzvLPPw8U
+
+#EXTINF:-1,1x03 La mutación
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=Hu51DQI_dyU
+
+#EXTINF:-1,1x04 Las sanguijuelas
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=4l0psBYbtQk
+
+#EXTINF:-1,1x05 Genesis
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=PB1763pGvGc
+
+#EXTINF:-1,1x06 Vikor
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=NH_jBOFEedw
+
+#EXTINF:-1,1x07 Pesadilla
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=1iP9qyr59io
+
+#EXTINF:-1,1x08 Fin del Mundo
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=L_CEuQBUBdU
+
+#EXTINF:-1,1x09 Cantidad desconocida
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=08yMLCaMjkE
+
+
+#EXTINF:-1,1x10 Los inocentes
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=FlzxLIWqhAI
+
+#EXTINF:-1,1x11 La cortina académica
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=fJNwHyp4lT0
+
+#EXTINF:-1,1x12 Traicionados
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=VDqWRV_Ry2E
+
+#EXTINF:-1,1x13 Tormenta
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=IynoMP90fn0
+
+#EXTINF:-1,1x14 Pánico
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=3iVlyv2JziQ
+
+#EXTINF:-1,1x15 Caminata lunar
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=5C0YgtzDqg4
+
+#EXTINF:-1,1x16 Pared de cristal
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=uv_CkX4eKOk
+
+#EXTINF:-1,1x17 Los condenados
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=wsMRb_hzCpU
+
+#EXTINF:-1,2x01 Alerta roja
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=emxdhSqujLM
+
+#EXTINF:-1,2x02 El platillo
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=iB5gycKEK8Q
+
+#EXTINF:-1,2x03 Los vigilantes
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=DPP3vaNiyiY
+
+#EXTINF:-1,2x04 El valle de las sombras
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=8umgS_cLJBU
+
+#EXTINF:-1,2x05 El enemigo
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=s49FJHTRsP0
+
+#EXTINF:-1,2x06 El juicio
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=6Gd5psc_ZJ0
+
+#EXTINF:-1,2x07 Las esporas
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=4jMYnrtGFzw
+
+#EXTINF:-1,2x08 Avanzada mortal
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=1TW-f-xHtdo
+
+#EXTINF:-1,2x09 Reunión decisiva 1ª parte
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=wUpPEphNpVM
+
+#EXTINF:-1,2x10 Reunión decisiva 2ª parte
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=b9sV4NnO0SM
+
+#EXTINF:-1,2x11 El profeta
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=BiCOhaA5jVs
+
+#EXTINF:-1,2x12 Laberinto
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=JnTStjOg89c
+
+#EXTINF:-1,2x13 El cautivo
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=0itU0uwRdGU
+
+#EXTINF:-1,2x14 Los creyentes
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=DEalUiBa2zo
