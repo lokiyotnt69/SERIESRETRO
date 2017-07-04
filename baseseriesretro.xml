@@ -1231,13 +1231,131 @@
 
 
 
+
+
 <item>
-      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]LOS CUENTOS DEL MONO DE ORO[/COLOR]</title>
-  <thumbnail>http://www.seriespapaya.com/uploads/Cuentos-del-mono-de-oro92.jpg</thumbnail>
-<fanart>http://4.bp.blogspot.com/-GHM2wbn2SfU/UdRiqChenYI/AAAAAAAAIug/Ram1BXp9Sck/s500/Tales+Monkey.jpg</fanart>
-<link>http://ignoreme</link>
-   <externallink></externallink>
+<title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]LOS INVASORES[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail>http://wordpress.elmedicodemihijo.com/wp-content/uploads/2011/04/invasores.jpg</thumbnail>
+<fanart>http://images.ozongo.com/xpress/kitsofthecat/resources/image/invaders_(1).jpg</fanart>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/Losinvasores</externallink>	
 </item>
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]LOS MISERABLES[/COLOR]</title>
+  <thumbnail>http://img.rtve.es/v/2151232/</thumbnail>
+<fanart>http://img.rtve.es/v/2151128?w=1180&preview=1385985873380.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/losmiserables.xml</externallink>
+</item>
+
+
+<item>
+ <title>[COLOR white][COLOR lime]• [/COLOR] Los Problemas Crecen</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://images-na.ssl-images-amazon.com/images/I/71TTmLNo59L._SL1289_.jpg</thumbnail>
+		<fanart>http://www.divinity.es/bbtfile/6_20120621e14D1Z.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/lokario1/los-problemas-crecen-temporadas-12345-14387/list,1,4</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/lokario1/los-problemas-crecen-temporadas-12345-14387/list,1,4</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/71TTmLNo59L._SL1289_.jpg</thumbnail>
+<fanart>http://www.divinity.es/bbtfile/6_20120621e14D1Z.jpg</fanart>
+</item>
+
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]LOS PROTEGIDOS[/COLOR]</title>
+  <thumbnail>http://www.formulatv.com/images/series/posters/300/304/1_m3.jpg</thumbnail>
+<fanart>http://img01.heraldo.es/uploads/imagenes/bajacalidad/2010/12/23/_protegidos_db474796.jpg?c81e728d9d4c2f636f067f89cc14862c</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/Losprotegidos.xml</externallink>
+</item>
+
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]JHG[/COLOR][COLOR red]MASTER[/COLOR][COLOR  lime]*   [/COLOR][COLOR  lime]LOS QUIEN[/COLOR]</title>
+  <thumbnail>http://www.series21.com/thumbs/series_180x270_85/650.jpg</thumbnail>
+<fanart>http://es.web.img1.acsta.net/r_640_600/b_1_d6d6d6/medias/nmedia/18/83/68/11/19746331.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/Losquien.xml</externallink>
+</item>
+
+<item>
+ <title>[COLOR white][COLOR lime]• [/COLOR][COLOR  yellow]MACGYVER [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://images-na.ssl-images-amazon.com/images/I/51BUP4uCUbL._AC_UL320_SR224,320_.jpg</thumbnail>
+		<fanart>http://www.mubis.es/media/users/3724/131412/macgyver-os-gusto-esta-serie-que-nota-le-dais-original.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/macgyver-32331/list,1,6</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/macgyver-32331/list,1,6</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/51BUP4uCUbL._AC_UL320_SR224,320_.jpg</thumbnail>
+<fanart>http://www.mubis.es/media/users/3724/131412/macgyver-os-gusto-esta-serie-que-nota-le-dais-original.jpg</fanart>
+</item>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
