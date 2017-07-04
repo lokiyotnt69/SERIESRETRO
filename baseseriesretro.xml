@@ -1076,7 +1076,7 @@
 </item>
 
 <item>
- <title>[COLOR white][COLOR lime]• [/COLOR] La Casa de los Lios </title>
+ <title>[COLOR white][COLOR lime]• [/COLOR][COLOR lime] La Casa de los Lios[/COLOR] </title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -1114,7 +1114,7 @@
 </item>
 
 <item>
-<title>[COLOR white][COLOR lime]• [/COLOR]La Familia Adams </title>
+<title>[COLOR lime]• [/COLOR][COLOR white]La Familia Adams[/COLOR] </title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -1251,7 +1251,7 @@
 
 
 <item>
- <title>[COLOR white][COLOR lime]• [/COLOR] Los Problemas Crecen</title>
+ <title>[COLOR white][COLOR lime]• [/COLOR][COLOR lime] Los Problemas Crecen[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -1309,7 +1309,7 @@
 </item>
 
 <item>
- <title>[COLOR white][COLOR lime]• [/COLOR][COLOR  yellow]MACGYVER [/COLOR]</title>
+ <title>[COLOR white][COLOR lime]• [/COLOR][COLOR  yellow][/COLOR]MACGYVER [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -1349,8 +1349,6 @@
 
 
 
-
-
 <item>
       <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]*   [/COLOR][COLOR  lime]MAKINAVAJA[/COLOR]</title>
   <thumbnail>http://www.dolmeneditorial.com/wp-content/uploads/MAKI-NAVAJA-Vol-2-Portada1.jpg</thumbnail>
@@ -1381,7 +1379,146 @@
 
 
 
+<item>
+<title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]M*A*S*H[/COLOR]</title>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/51JYY2J8J4L.jpg</thumbnail>
+<fanart>http://www.culturamas.es/wp-content/uploads/2014/02/MASH-1972.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/MASH</externallink>
 
+
+ <item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]MATRIMONIOS CON HIJOS[/COLOR]</title>
+  <thumbnail>https://fanart.tv/fanart/tv/76385/tvposter/married--with-children-5212d1a992dd4.jpg</thumbnail>
+<fanart>http://cde.peru21.pe/ima/0/0/3/1/3/313860.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/matrimoniosconhijos.xml</externallink>
+</item>
+
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]MEDIA NARANJA[/COLOR]</title>
+  <thumbnail>http://pics.filmaffinity.com/naranja_y_media_my_better_halves_tv_series-202177598-mmed.jpg</thumbnail>
+<fanart>http://img.rtve.es/v/2633706/</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/medianaranja.xml</externallink>
+</item>
+
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]MEDICO DE FAMILIA[/COLOR]</title>
+  <thumbnail>http://pics.filmaffinity.com/M_dico_de_familia_Serie_de_TV-313606661-large.jpg</thumbnail>
+<fanart>http://www.formulatv.com/images/noticias/13700/13726/1.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/medicodefamilia.xml</externallink>
+</item>
+
+
+<item>
+ <title>[COLOR red]• [/COLOR][COLOR yellow]MELROSE PLACE [/COLOR] </title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://www.podnapisi.net/thumbnails/moviedb/normal/AIM.jpg</thumbnail>
+		<fanart>http://2.bp.blogspot.com/-xPuBfjJ-GUs/UGxJLf8oUPI/AAAAAAAACt0/4t3LSujq-hk/s1600/1992-1999-Melrose-Place-Wallpaper-18.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/lokario1/melrose-place-temporadas-1234567-completa-11635/list,1,10</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/lokario1/melrose-place-temporadas-1234567-completa-11635/list,1,10</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://www.podnapisi.net/thumbnails/moviedb/normal/AIM.jpg</thumbnail>
+<fanart>http://2.bp.blogspot.com/-xPuBfjJ-GUs/UGxJLf8oUPI/AAAAAAAACt0/4t3LSujq-hk/s1600/1992-1999-Melrose-Place-Wallpaper-18.jpg</fanart>
+</item>
+
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]MIS ADORABLES VECINOS[/COLOR]</title>
+  <thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BNjc0OTcxNDktZDU5NC00NTczLWFiYTUtMmM1YWI4NDU0YjRkXkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_UY268_CR10,0,182,268_AL_.jpg</thumbnail>
+<fanart>http://international-sales-atresmedia.com/wp-content/uploads/2016/02/Mis-adorables-2-1200x720.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/Misadorablesvecnos.xml</externallink>
+</item>
+
+
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]NADA ES PARA SIEMPRE[/COLOR]</title>
+  <thumbnail>http://www.serietv.es/images/serie/GC/nada-es-para-siempre-G.jpg</thumbnail>
+<fanart>http://dm.h-cdn.co/assets/16/23/980x490/landscape-1465310120-que-fue-de-los-protagonistas-de-nada-es-para-siempre.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/Nadaesparasiempre.xml</externallink>
+</item>
+
+
+
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]ONE TREE HILL[/COLOR]</title>
+  <thumbnail>https://upload.wikimedia.org/wikipedia/en/1/1a/One_Tree_Hill_-_Season_1_-_DVD.JPG</thumbnail>
+<fanart>http://1.bp.blogspot.com/-fBJn7pPSNdo/UVNFPCdl0GI/AAAAAAAAB18/vL5I-6QGhLg/s1600/One+Tree+Hill+6.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/Onethreethill.xml</externallink>
+</item>
+
+
+
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]PACO Y EVA[/COLOR]</title>
+  <thumbnail>http://pics.filmaffinity.com/paco_y_veva_tv_series-130522866-large.jpg</thumbnail>
+<fanart>http://img.rtve.es/v/2782875/</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/PacoyEva.xml</externallink>
+</item>
+
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]PADRE FORZOSOS[/COLOR]</title>
+  <thumbnail>https://image.tmdb.org/t/p/w300/k4FYuIIhWVEuEyqm5C4jxcG7Sbb.jpg</thumbnail>
+<fanart>http://e01-elmundo.uecdn.es/assets/multimedia/imagenes/2014/08/30/14093963217165.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://pastebin.com/raw/Kr3cWzqB</externallink>
+</item>
+
+
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]PELOTAS[/COLOR]</title>
+  <thumbnail>http://pics.filmaffinity.com/pelotas_tv_series-749888798-large.jpg</thumbnail>
+<fanart>http://blogs.elpais.com/.a/6a00d8341bfb1653ef01348382e7c0970c-pi</fanart>
+<link>http://ignoreme</link>
+   <externallink>http://pastebin.com/raw/J6fJBcTy</externallink>
+</item>
 
 
 
