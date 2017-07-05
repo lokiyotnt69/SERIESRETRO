@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+<item>
+<title>[COLOR  magenta]*STARSKY & HUTCH  [/COLOR] TEMPORADA 1</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMzU2NTQ1NTkxOV5BMl5BanBnXkFtZTcwNTE1MTEzMw@@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail>
+		<fanart>http://www.retroland.com/wp-content/uploads/2012/05/starsky_and_hutch_650x300_a.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/starsky-hutch-t1-inc-47861</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/starsky-hutch-t1-inc-47861</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+</item>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMzU2NTQ1NTkxOV5BMl5BanBnXkFtZTcwNTE1MTEzMw@@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail>
+		<fanart>http://www.retroland.com/wp-content/uploads/2012/05/starsky_and_hutch_650x300_a.jpg</fanart>
+
+
+<item>
+<title>[COLOR  magenta]*STARSKY & HUTCH  [/COLOR] TEMPORADA 2</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMzU2NTQ1NTkxOV5BMl5BanBnXkFtZTcwNTE1MTEzMw@@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail>
+		<fanart>http://www.retroland.com/wp-content/uploads/2012/05/starsky_and_hutch_650x300_a.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/starsky-hutch-t2-inc-47862</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/starsky-hutch-t2-inc-47862</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+</item>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMzU2NTQ1NTkxOV5BMl5BanBnXkFtZTcwNTE1MTEzMw@@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail>
+		<fanart>http://www.retroland.com/wp-content/uploads/2012/05/starsky_and_hutch_650x300_a.jpg</fanart>
+
+
+
+<item>
+<title>[COLOR  magenta]*STARSKY & HUTCH  [/COLOR] TEMPORADA 3</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMzU2NTQ1NTkxOV5BMl5BanBnXkFtZTcwNTE1MTEzMw@@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail>
+		<fanart>http://www.retroland.com/wp-content/uploads/2012/05/starsky_and_hutch_650x300_a.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/starsky-hutch-t3-inc-47863</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/starsky-hutch-t3-inc-47863</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+</item>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMzU2NTQ1NTkxOV5BMl5BanBnXkFtZTcwNTE1MTEzMw@@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail>
+		<fanart>http://www.retroland.com/wp-content/uploads/2012/05/starsky_and_hutch_650x300_a.jpg</fanart>
+
+
+<item>
+<title>[COLOR  magenta]*STARSKY & HUTCH  [/COLOR] TEMPORADA 4</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMzU2NTQ1NTkxOV5BMl5BanBnXkFtZTcwNTE1MTEzMw@@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail>
+		<fanart>http://www.retroland.com/wp-content/uploads/2012/05/starsky_and_hutch_650x300_a.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/starsky-hutch-t4-inc-47864</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/starsky-hutch-t4-inc-47864</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+</item>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMzU2NTQ1NTkxOV5BMl5BanBnXkFtZTcwNTE1MTEzMw@@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail>
+		<fanart>http://www.retroland.com/wp-content/uploads/2012/05/starsky_and_hutch_650x300_a.jpg</fanart>
