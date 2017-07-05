@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+
+<item>
+<title>[COLOR  yellow]*CORRUPCION EN MIAMI T1  [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://pics.filmaffinity.com/miami_vice_tv_series-593481902-large.jpg</thumbnail>
+		<fanart>http://cdn.20m.es/img2/recortes/2011/12/19/42347-944-550.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/corrupcion-en-miami-t1-47314</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/corrupcion-en-miami-t1-47314</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+</item>
+<thumbnail>http://pics.filmaffinity.com/miami_vice_tv_series-593481902-large.jpg</thumbnail>
+		<fanart>http://cdn.20m.es/img2/recortes/2011/12/19/42347-944-550.jpg</fanart>
+
+
+<item>
+<title>[COLOR  yellow]*CORRUPCION T2  [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://pics.filmaffinity.com/miami_vice_tv_series-593481902-large.jpg</thumbnail>
+		<fanart>http://cdn.20m.es/img2/recortes/2011/12/19/42347-944-550.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/corrupcion-en-miami-t2-47315</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/corrupcion-en-miami-t2-47315</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+</item>
+<thumbnail>http://pics.filmaffinity.com/miami_vice_tv_series-593481902-large.jpg</thumbnail>
+		<fanart>http://cdn.20m.es/img2/recortes/2011/12/19/42347-944-550.jpg</fanart>
+
+<item>
+<title>[COLOR  yellow]*CORRUPCION T3  [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://pics.filmaffinity.com/miami_vice_tv_series-593481902-large.jpg</thumbnail>
+		<fanart>http://cdn.20m.es/img2/recortes/2011/12/19/42347-944-550.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/corrupcion-en-miami-t3-47316</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/corrupcion-en-miami-t3-47316</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+</item>
+<thumbnail>http://pics.filmaffinity.com/miami_vice_tv_series-593481902-large.jpg</thumbnail>
+		<fanart>http://cdn.20m.es/img2/recortes/2011/12/19/42347-944-550.jpg</fanart>
+
+<item>
+<title>[COLOR  yellow]*CORRUPCION T4  [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://pics.filmaffinity.com/miami_vice_tv_series-593481902-large.jpg</thumbnail>
+		<fanart>http://cdn.20m.es/img2/recortes/2011/12/19/42347-944-550.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/corrupcion-en-miami-t4-47317</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/corrupcion-en-miami-t4-47317</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+</item>
+<thumbnail>http://pics.filmaffinity.com/miami_vice_tv_series-593481902-large.jpg</thumbnail>
+		<fanart>http://cdn.20m.es/img2/recortes/2011/12/19/42347-944-550.jpg</fanart>
+
+<item>
+<title>[COLOR  yellow]*CORRUPCION EN MIAMI T5 [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://pics.filmaffinity.com/miami_vice_tv_series-593481902-large.jpg</thumbnail>
+		<fanart>http://cdn.20m.es/img2/recortes/2011/12/19/42347-944-550.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/corrupcion-en-miami-t5-47318</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Cuspide/corrupcion-en-miami-t5-47318</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+</item>
+<thumbnail>http://pics.filmaffinity.com/miami_vice_tv_series-593481902-large.jpg</thumbnail>
+		<fanart>http://cdn.20m.es/img2/recortes/2011/12/19/42347-944-550.jpg</fanart>
+
