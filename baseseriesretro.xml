@@ -133,7 +133,7 @@
 
 
 <item>
-<title>[COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR] [COLOR  yellow]BONANZA  [/COLOR] </title>
+<title>[COLOR  yellow]*  [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR] [COLOR  yellow]BONANZA  [/COLOR] </title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -171,7 +171,7 @@
 </item>
 
 <item>
- <title>[COLOR white][COLOR lime]• [/COLOR]Cheers</title>
+ <title>[COLOR  yellow]*  [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR] [COLOR  yellow]Cheers[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -228,7 +228,7 @@
 </item>
 
 <item>
- <title>[COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  yellow]COLOMBO [/COLOR] </title>
+ <title>[COLOR  yellow]*  [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR] [COLOR  yellow]COLOMBO [/COLOR] </title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -276,7 +276,7 @@
 
 
 <item>
-      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]CORRUPCION EN MIAMI/COLOR]</title>
+      <title>[COLOR  yellow]*  [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR] [COLOR  yellow]CORRUPCION EN MIAMI/COLOR]</title>
   <thumbnail>http://cdn.20m.es/img2/recortes/2011/12/19/42347-944-550.jpg</thumbnail>
 <fanart>http://cdn.20m.es/img2/recortes/2011/12/19/42347-944-550.jpg</fanart>
 <link>http://ignoreme</link>
@@ -334,7 +334,7 @@
 </item>
 
 <item>
- <title>[COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]DEXTER [/COLOR]</title>
+ <title>[COLOR  yellow]*  [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR] [COLOR  yellow]DEXTER [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -392,7 +392,7 @@
 
 		
 <item>
- <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]EL COCHE FANTASTICO [/COLOR] </title>
+ <title>[COLOR red][COLOR  yellow]*  [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]EL COCHE FANTASTICO [/COLOR] </title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -497,7 +497,7 @@
 
 
 <item>
-<title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]El Zorro[/COLOR] </title>
+<title>[COLOR red][COLOR  yellow]*  [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]El Zorro[/COLOR] </title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -604,7 +604,7 @@
 
 
 <item>
- <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]HERCULES [/COLOR]</title>
+ <title>[COLOR red][COLOR  yellow]*  [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]HERCULES [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <regex>
@@ -673,7 +673,7 @@
 </item>
 
 <item>
- <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime] La Casa de los Lios[/COLOR] </title>
+ <title>[COLOR red][COLOR  yellow]*  [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime] La Casa de los Lios[/COLOR] </title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -711,7 +711,7 @@
 </item>
 
 <item>
-<title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]La Familia Adams[/COLOR] </title>
+<title>[COLOR red][COLOR  yellow]*  [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]La Familia Adams[/COLOR] </title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -751,7 +751,7 @@
 
 
 <item>
-      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR]LA FAMILIA MATA[/COLOR]</title>
+      <title>[COLOR  yellow]*  [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR] [COLOR  yellow]LA FAMILIA MATA[/COLOR]</title>
   <thumbnail>http://decine21.com/img/upload/obras/La-familia-Mata-13063/La-familia-Mata-13063-C.jpg</thumbnail>
 <fanart>http://pics.filmaffinity.com/La_familia_Mata_Serie_de_TV-250777411-large.jpg</fanart>
 <link>http://ignoreme</link>
@@ -829,7 +829,6 @@
 
 
 
-
 <item>
 <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]LOS INVASORES[/COLOR]</title>
 <link>http://Ignoreme</link>
@@ -847,7 +846,7 @@
 </item>
 
 
-<item>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime] Los Problemas Crecen[/COLOR]</title>
+<item>[COLOR red][COLOR  yellow]*  [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime] Los Problemas Crecen[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -905,7 +904,7 @@
 </item>
 
 <item>
- <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]MACGYVER [/COLOR]</title>
+ <title>[COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]MACGYVER [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -1272,7 +1271,6 @@
 
 
 
-
 <item>
       <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]THE O.C.[/COLOR]</title>
   <thumbnail>https://images-na.ssl-images-amazon.com/images/I/91Q6rGG51OL._SY445_.jpg</thumbnail>
@@ -1289,7 +1287,6 @@
 <link>http://ignoreme</link>
    <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/TioWilly.xml</externallink>
 </item>
-
 
 
 
@@ -1331,6 +1328,57 @@
    <externallink>http://pastebin.com/raw/CUPmimVV</externallink>
 </item>
 
+
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]WALKER RANGER TEXAS[/COLOR]</title>
+  <thumbnail>https://images-na.ssl-images-amazon.com/images/I/51EDrGpGgVL._AC_UL320_SR256,320_.jpg</thumbnail>
+<fanart>http://cdn.playbuzz.com/cdn/6ad055cf-b5f8-46f8-8660-7f62191bb2a2/e0d1e47a-3e8f-41ba-8180-64b6dfbdf614.png</fanart>
+<link>http://ignoreme</link>
+   <externallink>http://pastebin.com/raw/QQDNSBae</externallink>
+</item>
+
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]XENA, LA PRINCESA GUERRERA[/COLOR]</title>
+  <thumbnail>https://1.bp.blogspot.com/-kQn6Rtet49g/VsSQ_2cGefI/AAAAAAAABDc/cSJOctegY1U/s1600/7ec3bf7266be4ea577f6eeecc9e9d7b3.jpg</thumbnail>
+<fanart>http://2.bp.blogspot.com/--QFl7WP_pEs/VkmbVCet-FI/AAAAAAAAkbs/jVpapRnIRuI/s990/xena%2Bla%2Bprincesa%2Bguerrera%2Bestreno%2Btmc%2Benero%2B2016.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>http://pastebin.com/raw/J6094k4G</externallink>
+</item>
+
+
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]YO CLAUDIO[/COLOR]</title>
+  <thumbnail>http://1.bp.blogspot.com/-C89DlhR0xGU/Uoi2SloowLI/AAAAAAAAAmw/hzFmwxjV8HA/s1600/Yo+Claudio.jpg</thumbnail>
+<fanart>http://blogs.diariovasco.com/series-gourmets/files/2012/12/derek-jacobi.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>http://pastebin.com/raw/e2k7VeKg</externallink>
+</item>
+
+
+
+<item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]YO QUISIERA[/COLOR]</title>
+  <thumbnail>http://divinitystatic-a.akamaihd.net/yoquisiera/quisiera-lanza-disco-oficial_MDSIMA20151209_0126_36.png</thumbnail>
+<fanart>http://bluper.elespanol.com/sites/default/files/noticias/2015-12-29/yo-quisiera-aterriza-finalmente-en-divinity_gallery_a.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>http://pastebin.com/raw/RVfrivL5</externallink>
+</item>
+
+
+
+ <item>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]*    ZOEY 101[/COLOR]</title>
+  <thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BNzMyMDM3MTY1M15BMl5BanBnXkFtZTgwMjQxNDIzMTE@._V1_UY1200_CR93,0,630,1200_AL_.jpg</thumbnail>
+<fanarthttps://img.buzzfeed.com/buzzfeed-static/static/2016-04/13/16/campaign_images/webdr04/how-well-do-you-remember-zoey-101-2-24943-1460578005-1_dblbig.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>http://textuploader.com/drx8t</externallink>
+</item>
 
 
 
