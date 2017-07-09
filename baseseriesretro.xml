@@ -594,8 +594,8 @@
 
 <item>
       <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]FRIENDS[/COLOR]</title>
-  <thumbnail>http://www.subtitles.to/v/4/4f0d9587774e124c585b0c6f4f3e2996.jpg</thumbnail>
-<fanart>http://pixel.nymag.com/imgs/daily/vulture/2016/03/23/23-friends-cover-story-lede.w750.h560.2x.jpg</fanart>
+  <thumbnail>https://okdiario.com/series/img/2015/11/friends.png</thumbnail>
+<fanart>https://okdiario.com/series/img/2015/11/friends.png</fanart>
 <link>http://ignoreme</link>
    <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/FRIENDS.xml</externallink>
 </item>
@@ -612,8 +612,8 @@
   <listrepeat><![CDATA[
         <title>[makelist.param3]</title>
         <link>$doregex[getUrl]</link>
-        <thumbnail></thumbnail>
-		<fanart></fanart>
+        <thumbnail>https://pics.filmaffinity.com/hercules_the_legendary_journeys_tv_series-707865505-large.jpg</thumbnail>
+		<fanart>https://pics.filmaffinity.com/hercules_the_legendary_journeys_tv_series-707865505-large.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/Cuspide/hercules-t0-47770</page>
@@ -638,8 +638,8 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://pics.filmaffinity.com/hercules_the_legendary_journeys_tv_series-707865505-large.jpg</thumbnail>
+<fanart>https://pics.filmaffinity.com/hercules_the_legendary_journeys_tv_series-707865505-large.jpg</fanart>
 </item>
 
 
