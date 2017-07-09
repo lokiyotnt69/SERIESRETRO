@@ -25,8 +25,8 @@
 
 <item>
       <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  yellow]•  [/COLOR][COLOR red][/COLOR][COLOR  lime]7 VIDAS[/COLOR]</title>
-  <thumbnail>http://seriesadicto.com/img/series/7-viGs.jpg</thumbnail>
-<fJart>http://www.globomedia.es/sites/default/files/image/image/7viGs-700x400.jpg</fJart>
+  <thumbnail>http://seriesadicto.com/img/series/7-vidas.jpg</thumbnail>
+<fJart>http://seriesadicto.com/img/series/7-vidas.jpg</fJart>
 <link>http://ignoreme</link>
    <externallink>https://raw.githubusercontent.com/lokiyotnt69/Series/master/7Vidas.xml</externallink>
 </item>
@@ -140,8 +140,8 @@
   <listrepeat><![CDATA[
         <title>[makelist.param3]</title>
         <link>$doregex[getUrl]</link>
-        <thumbnail>http://classicflix.com/images/bonanza_3_1.jpg</thumbnail>
-		<fanart>http://img1.rnkr-static.com/list_img_v2/6148/286148/full/bonanza-cast-list-u1.jpg</fanart>
+        <thumbnail>https://s-media-cache-ak0.pinimg.com/736x/7c/4a/d9/7c4ad92c92fd2988a4c317c66a920e26.jpg</thumbnail>
+		<fanart>https://s-media-cache-ak0.pinimg.com/736x/7c/4a/d9/7c4ad92c92fd2988a4c317c66a920e26.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/seri5/bonanza-29299/list,1,2</page>
@@ -166,8 +166,8 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://classicflix.com/images/bonanza_3_1.jpg</thumbnail>
-<fanart>http://img1.rnkr-static.com/list_img_v2/6148/286148/full/bonanza-cast-list-u1.jpg</fanart>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/736x/7c/4a/d9/7c4ad92c92fd2988a4c317c66a920e26.jpg</thumbnail>
+<fanart>https://s-media-cache-ak0.pinimg.com/736x/7c/4a/d9/7c4ad92c92fd2988a4c317c66a920e26.jpg</fanart>
 </item>
 
 <item>
@@ -604,9 +604,9 @@
 
 
 <item>
- <title>[COLOR red][COLOR  yellow]*  [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]HERCULES [/COLOR]</title>
+ <title>[COLOR  yellow]*  [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]HERCULES [/COLOR]</title>
 <link>$doregex[makelist]</link>
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
