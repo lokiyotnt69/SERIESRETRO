@@ -114,7 +114,7 @@
 
 
 <item>
-<title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR]BIENVENIDO AL LOLITA</title>
+<title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime] BIENVENIDO AL LOLITA[/COLOR]</title>
 <link>http://Ignoreme</link>
 <thumbnail>http://pics.filmaffinity.com/bienvenidos_al_lolita_tv_series-657655287-large.jpg</thumbnail>
 <fanart>http://es.web.img2.acsta.net/pictures/14/01/03/13/30/014901.jpg</fanart>
@@ -133,7 +133,7 @@
 
 
 <item>
-<title>[COLOR  yellow]*  [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR] [COLOR  yellow]BONANZA  [/COLOR] </title>
+<title>[COLOR  yellow]*  [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR] [COLOR  lime]BONANZA  [/COLOR] </title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -171,7 +171,7 @@
 </item>
 
 <item>
- <title>[COLOR  yellow]*  [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR] [COLOR  yellow]Cheers[/COLOR]</title>
+ <title>[COLOR  yellow]*  [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR] [COLOR  lime]Cheers[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -228,7 +228,7 @@
 </item>
 
 <item>
- <title>[COLOR  yellow]*  [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR] [COLOR  yellow]COLOMBO [/COLOR] </title>
+ <title>[COLOR  yellow]*  [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR] [COLOR  lime]COLOMBO [/COLOR] </title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -276,7 +276,7 @@
 
 
 <item>
-      <title>[COLOR  yellow]*  [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR] [COLOR  yellow]CORRUPCION EN MIAMI/COLOR]</title>
+      <title>[COLOR  yellow]*  [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR] [COLOR  lime]CORRUPCION EN MIAMI [/COLOR]</title>
   <thumbnail>http://cdn.20m.es/img2/recortes/2011/12/19/42347-944-550.jpg</thumbnail>
 <fanart>http://cdn.20m.es/img2/recortes/2011/12/19/42347-944-550.jpg</fanart>
 <link>http://ignoreme</link>
@@ -334,7 +334,7 @@
 </item>
 
 <item>
- <title>[COLOR  yellow]*  [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR] [COLOR  yellow]DEXTER [/COLOR]</title>
+ <title>[COLOR  yellow]*  [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR] [COLOR  lime]DEXTER [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -537,7 +537,7 @@
 
 
 <item>
-      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]*   [/COLOR][COLOR  lime]EMBRUJADA[/COLOR]</title>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]EMBRUJADA[/COLOR]</title>
   <thumbnail>https://guideimg.alibaba.com/images/shop/2015/09/11/74/embrujada-1-temporada-import-movie-european-format-zone-2-2005-elizabeth-montgomery-david-white_9097574.jpeg</thumbnail>
 <fanart>http://cdn.20m.es/img/2010/10/16/1151994.jpg</fanart>
 <link>http://ignoreme</link>
@@ -751,7 +751,7 @@
 
 
 <item>
-      <title>[COLOR  yellow]*  [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR] [COLOR  yellow]LA FAMILIA MATA[/COLOR]</title>
+      <title>[COLOR  yellow]*  [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR] [COLOR  lime]LA FAMILIA MATA[/COLOR]</title>
   <thumbnail>http://decine21.com/img/upload/obras/La-familia-Mata-13063/La-familia-Mata-13063-C.jpg</thumbnail>
 <fanart>http://pics.filmaffinity.com/La_familia_Mata_Serie_de_TV-250777411-large.jpg</fanart>
 <link>http://ignoreme</link>
@@ -761,7 +761,7 @@
 
 
 <item>
-      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]*   [/COLOR]LA HUELLA DEL CRIMEN[/COLOR]</title>
+      <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]*  [/COLOR]LA HUELLA DEL CRIMEN[/COLOR]</title>
   <thumbnail>http://www.seriesyonkis.com/img/series/170x243/la-huella-del-crimen.jpg</thumbnail>
 <fanart>http://img.rtve.es/v/1501507?w=1180&preview=1344418400550.jpg</fanart>
 <link>http://ignoreme</link>
@@ -837,6 +837,7 @@
 <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/Losinvasores</externallink>	
 </item>
 
+
 <item>
       <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]LOS MISERABLES[/COLOR]</title>
   <thumbnail>http://img.rtve.es/v/2151232/</thumbnail>
@@ -844,6 +845,7 @@
 <link>http://ignoreme</link>
    <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/losmiserables.xml</externallink>
 </item>
+
 
 
 <item>[COLOR red][COLOR  yellow]*  [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime] Los Problemas Crecen[/COLOR]</title>
@@ -884,7 +886,6 @@
 </item>
 
 
-
 <item>
       <title>[COLOR red][COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]LOS PROTEGIDOS[/COLOR]</title>
   <thumbnail>http://www.formulatv.com/images/series/posters/300/304/1_m3.jpg</thumbnail>
@@ -892,7 +893,6 @@
 <link>http://ignoreme</link>
    <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/Losprotegidos.xml</externallink>
 </item>
-
 
 
 <item>
@@ -903,8 +903,9 @@
    <externallink>https://raw.githubusercontent.com/lokiyotnt69/SERIESRETRO/master/Losquien.xml</externallink>
 </item>
 
+
 <item>
- <title>[COLOR  yellow]*  [/COLOR][/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]MACGYVER [/COLOR]</title>
+ <title>[COLOR  yellow]*  [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime]MACGYVER [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
